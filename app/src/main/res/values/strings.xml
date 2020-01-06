@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">趣味贪吃蛇</string>
+    <string name="layout1_name">游戏登陆界面</string>
+    <string name="login_button">登\t\t\t\t\t\t录</string>
+    <string name="text1"> 账号：</string>
+    <string name="text2"> 请输入账号</string>
+    <string name="text3"> 密码：</string>
+    <string name="text4"> 请输入密码</string>
+    <string name="remember_text">记住密码</string>
+    <string name="aboutGame">\t游戏名为：趣味贪吃蛇。\n\t\t该游戏是经典手机游戏，既简单又耐玩。进入游戏主界面后，点击屏幕中间的绿色按钮开始游戏，游戏开始后点击屏幕中间的蓝色按钮暂停游戏，游戏暂停后点击屏幕中间的绿色按钮可以继续游戏，点击屏幕中间的红色按钮可以退出游戏。通过控制蛇头方向吃苹果，使得蛇变长，从而获得积分。用游戏界面上的模拟方向盘控制蛇上下左右的方向，寻找吃的东西，每吃一口就能得到一个积分。而且每吃到一个苹果，不仅蛇的身子会变长，蛇的速度也会加快，难度不断越大。游戏当中，蛇不能碰墙，不能咬到自己的身体，更不能咬自己的尾巴。\n\t</string>
+    <string name="writer">作者：邓建明</string>
+    <string name="music_button">打开背景音乐</string>
+    <string name="difficulty1">简单</string>
+    <string name="difficulty2">一般</string>
+    <string name="difficulty3">困难</string>
+    <string name="mode_ready">欢迎进入游戏  ☺\n点击下面的开始按钮(绿色按钮)开始游戏</string>
+    <string name="mode_pause">暂停\n点击下面的开始按钮(绿色按钮)继续游戏</string>
+    <string name="mode_quit">游戏结束\n欢迎再次回来！</string>
+    <string name="mode_lose_prefix">游戏结束 ☹\n累计吃到的苹果数: </string>
+    <string name="mode_lose_suffix">\n点击重新开始</string>
+    <string name="snake_layout_text_text"></string>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.graduation.project.snakegame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_name1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.graduation.project.snakegame.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.graduation.project.snakegame.MenuActivity"></activity>
+        <activity android:name="com.graduation.project.snakegame.AboutActivity"></activity>
+        <activity android:name="com.graduation.project.snakegame.MusicActivity"></activity>
+        <activity android:name="com.graduation.project.snakegame.DifficultyActivity"></activity>
+        <activity android:name="com.graduation.project.snakegame.GameActivity"></activity>
+        <service
+            android:name="com.graduation.project.snakegame.MusicService"
+            android:exported="true"
+            android:process=".remote">
+        </service>
+    </application>
+
+</manifest>

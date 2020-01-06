@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/title"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/button_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_about"
+        android:layout_alignLeft="@+id/button_music"
+        android:layout_alignStart="@+id/button_music"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:background="@drawable/circle1" />
+
+    <ImageButton
+        android:id="@+id/button_difficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="198dp"
+        android:layout_toEndOf="@+id/button_start"
+        android:layout_toRightOf="@+id/button_start"
+        android:background="@drawable/circle2" />
+    <ImageButton
+        android:id="@+id/button_music"
+        android:background="@drawable/circle3"
+        android:layout_below="@id/button_start"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageButton
+        android:id="@+id/button_about"
+        android:background="@drawable/circle4"
+        android:layout_below="@id/button_difficulty"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="190dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+</RelativeLayout>
